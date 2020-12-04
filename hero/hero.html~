@@ -1,0 +1,24 @@
+<head>
+  <link href="hero.css" rel="stylesheet"/>
+</head>
+<div class="color-wrapper">
+  <section class="hero-wrapper flex">
+    
+    <div class="hero-left flex">
+      <div class="hero-title-wrapper">
+      <h1 class="title-box__title-text t-d c-m sz-t">DON'T FEAR THE HOTPOT... NO REALLY</h1>
+      <p class="title-box__title-description sz-d d-b">Experience the newest trend in dining, sharable, scrumptious, fresh, healthy hot pot.</p>
+      <a class="title-box__cta-button sz-b" href="">Learn How to Hotpot</a>
+    </div>
+    </div>
+    <div class="hero-left__title-box">
+      
+     
+
+	 
+    </div>
+    <div class="hero-right">
+
+    </div>
+  </section>
+</div>

@@ -1,0 +1,116 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/*******************
+FONTS
+*******************/
+
+@font-face {
+    font-family: "rb";
+    src: url(Reglo-bold.otf) format("opentype");
+}
+
+/*******************
+FONT SIZING
+*******************/
+
+.sz-t {
+    font-size: 72px;
+}
+
+.sz-b {
+    font-size: 24px;
+}
+
+.sz-d {
+    font-size: 28px;
+}
+
+/*******************
+FONT SPACING
+*******************/
+.t-d {
+    padding-bottom: 32px;
+}
+
+.d-b {
+    padding-bottom: 32px;
+}
+
+/*******************
+COLORS
+*******************/
+
+.c-m {
+    color: #ee2e20;
+}
+
+/*******************
+UTILITIES
+*******************/
+
+.flex {
+    display: flex;
+}
+
+/* https://www.w3schools.com/howto/howto_css_circles.asp */
+.dot-left, .dot-right {
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*******************
+HERO STYLES
+*******************/
+
+.color-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color:  #FDF5E2;
+    
+}
+
+
+.hero-left {
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+}
+.hero-right {
+    height: 100vh;
+    width: 50vw;
+    background: url('hot-pot.jpg');
+    
+}
+
+.title-box__title-text, .title-box__title-description, .title-box__cta-button {
+    font-family: 'rb';
+}
+
+.title-box__cta-button {
+    display: inline-block;
+    background-color:  #ee2e20;
+    border: none;
+    padding: 16px 24px;
+    transition: 250ms background ease;
+}
+
+.title-box__cta-button:hover {
+    background-color: #fff;
+    
+}
+

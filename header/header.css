@@ -1,0 +1,105 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/*******************
+FONTS
+*******************/
+
+@font-face {
+    font-family: "rb";
+    src: url(Reglo-bold.otf) format("opentype");
+}
+
+/*******************
+FONT SIZING
+*******************/
+
+.sz-t {
+    font-size: 72px;
+}
+
+/*******************
+COLORS
+*******************/
+
+.c-m {
+    color: #ee2e20;
+}
+
+/*******************
+UTILITIES
+*******************/
+
+.flex {
+    display: flex;
+}
+
+/* https://www.w3schools.com/howto/howto_css_circles.asp */
+.dot-left, .dot-right {
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*******************
+HEADER STYLES
+*******************/
+
+.header__logo {
+    font-family: "rb";
+    
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav-container-left {
+    position: relative;
+    right: 200px;
+}
+
+.header__nav-container-right {
+    position: relative;
+    left: 200px;
+}
+
+.nav-menu__list-item {
+    padding: 0 32px;
+}
+
+.dot-left {
+    position: relative;
+    left: 75px;
+}
+
+.dot-right {
+    position: relative;
+    right: 75px;
+}
+
+.nav-menu__link {
+    font-family: 'rb';
+    font-size: 20;
+}
+

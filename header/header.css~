@@ -1,0 +1,55 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/*******************
+FONTS
+*******************/
+
+@font-face {
+    font-family: "rb";
+    src: url(Reglo-bold.otf) format("opentype");
+}
+
+/*******************
+FONT SIZING
+*******************/
+
+.sz-t {
+    font-size: 72px;
+}
+
+/*******************
+COLORS
+*******************/
+
+.c-m {
+    color: #ee2e20;
+}
+
+/*******************
+UTILITIES
+*******************/
+
+.flex {
+    display: flex;
+}
+
+/*******************
+HEADER STYLES
+*******************/
+
+.header__logo {
+    font-family: "rb";
+    
+}
