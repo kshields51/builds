@@ -1,0 +1,164 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    background-color:  #FDF5E2;
+    
+}
+
+/*Form elements don't inherit font settings, you have to set these properties manually.
+
+https://stackoverflow.com/questions/26140050/why-is-font-family-not-inherited-in-button-tags-automatically/26140154
+*/
+
+button {
+    font-family: arial, sans-serif;
+}
+
+/*******************
+FONTS
+*******************/
+
+@font-face {
+    font-family: "rb";
+    src: url(Reglo-bold.otf) format("opentype");
+}
+
+
+
+/*******************
+FONT SIZING
+*******************/
+
+.sz-t {
+    font-size: 72px;
+}
+
+.sz-b {
+    font-size: 24px;
+}
+
+.sz-d {
+    font-size: 28px;
+}
+
+.sz-small {
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*******************
+FONT SPACING
+*******************/
+.t-d {
+    padding-bottom: 32px;
+}
+
+.d-b {
+    padding-bottom: 32px;
+}
+
+
+.card-title-p-card-description {
+    padding-bottom: 24px;
+}
+
+.card-description-p-image {
+    padding-bottom: 24px;
+}
+
+.image-p-price {
+    padding-bottom: 16px;
+}
+
+.price-p-button {
+    padding-bottom: 24px;
+}
+
+
+/*******************
+COLORS
+*******************/
+
+.c-m {
+    color: #ee2e20;
+}
+
+/*******************
+UTILITIES
+*******************/
+
+.flex {
+    display: flex;
+}
+
+/* https://www.w3schools.com/howto/howto_css_circles.asp */
+.dot-left, .dot-right {
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/*******************
+CARD STYLES
+*******************/
+
+.card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'rb';
+}
+
+.card__title-subtext {
+    text-transform: uppercase;
+}
+
+.card__image-container {
+    height: 200px;
+    width: 200px;
+}
+
+.card__image {
+    height: 100%;
+    width: 100%;
+}
+
+
+.card__button {
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 12px 60px;
+    cursor: pointer;
+}
+
+
+.card__button {
+    transition: 250ms background ease;
+    background-color: #ee2e20;
+    color: white;
+}
+
+.card__button:hover {
+    color: #ee2e20;
+    background-color: white;
+}
+
+.card__title-description {
+    max-width: 300px;
+}

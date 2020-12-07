@@ -1,9 +1,12 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <title>Document</title>
     <link href="style.css" rel="stylesheet"/>
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   </head>
   <body>
     <!-- HEADER -->
@@ -56,6 +59,32 @@
 	</section>
       </div>
     </main>
+    <!-- FOOTER -->
+<footer  class="footer flex">
+  <div class="links-area">
+    <ul class="links-area__list flex">
+      <li class="links-area__list-item"><a class="links-area__link sz-b" href="">Location</a></li>
+      <li class="links-area__list-item"><a class="links-area__link sz-b" href="">About</a></li>
+      <li class="links-area__list-item"><a class="links-area__link sz-b" href="">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="app-area flex">
+    <a class="app-dowload-link sz-b" href="">Download our app</a>
+    <div class="store-container flex">
+      <i class="fab fa-app-store-ios fa-2x"></i>
+      <i class="fab fa-google-play fa-2x"></i>
+    </div>
+  </div>
+
+  <div class="social-links">
+    <ul class="social-links__list flex">
+      <i class="social-links__icon fab fa-facebook-f"></i>
+      <i class="social-links__icon fab fa-twitter"></i>
+      <i class="social-links__icon fab fa-instagram"></i>
+    </ul>
+  </div>
+</footer>
 
 
 
