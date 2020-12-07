@@ -15,7 +15,14 @@ body {
     
 }
 
+/*Form elements don't inherit font settings, you have to set these properties manually.
 
+https://stackoverflow.com/questions/26140050/why-is-font-family-not-inherited-in-button-tags-automatically/26140154
+*/
+
+button {
+    font-family: arial, sans-serif;
+}
 
 /*******************
 FONTS
@@ -25,6 +32,8 @@ FONTS
     font-family: "rb";
     src: url(Reglo-bold.otf) format("opentype");
 }
+
+
 
 /*******************
 FONT SIZING
@@ -42,6 +51,14 @@ FONT SIZING
     font-size: 28px;
 }
 
+.sz-small {
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 /*******************
 FONT SPACING
 *******************/
@@ -52,6 +69,24 @@ FONT SPACING
 .d-b {
     padding-bottom: 32px;
 }
+
+
+.card-title-p-card-description {
+    padding-bottom: 24px;
+}
+
+.card-description-p-image {
+    padding-bottom: 24px;
+}
+
+.image-p-price {
+    padding-bottom: 16px;
+}
+
+.price-p-button {
+    padding-bottom: 24px;
+}
+
 
 /*******************
 COLORS
@@ -76,91 +111,6 @@ UTILITIES
   background-color: black;
   border-radius: 50%;
   display: inline-block;
-}
-
-/*******************
-HEADER STYLES
-*******************/
-
-.header__logo {
-    font-family: "rb";
-    
-}
-
-.header {
-    align-items: center;
-    justify-content: center;
-}
-
-.header__nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header__nav-container-left {
-    position: relative;
-    right: 200px;
-}
-
-.header__nav-container-right {
-    position: relative;
-    left: 200px;
-}
-
-.nav-menu__list-item {
-    padding: 0 32px;
-}
-
-.dot-left {
-    position: relative;
-    left: 75px;
-}
-
-.dot-right {
-    position: relative;
-    right: 75px;
-}
-
-.nav-menu__link {
-    font-family: 'rb';
-    font-size: 20;
-}
-
-/*******************
-HERO STYLES
-*******************/
-
-
-
-.hero-left {
-    height: 100vh;
-    width: 50vw;
-    align-items: center;
-}
-.hero-right {
-    height: 100vh;
-    width: 50vw;
-    background: url('hot-pot.jpg');
-    
-}
-
-.title-box__title-text, .title-box__title-description, .title-box__cta-button {
-    font-family: 'rb';
-}
-
-.title-box__cta-button {
-    display: inline-block;
-    background-color:  #0070b8;
-    color: white;
-    border: none;
-    padding: 16px 24px;
-    transition: 250ms background ease;
-}
-
-.title-box__cta-button:hover {
-    background-color: #fff;
-    
 }
 
 /*******************
@@ -208,3 +158,4 @@ FOOTER STYLES
 .store-container {
     justify-content: space-around;
 }
+
